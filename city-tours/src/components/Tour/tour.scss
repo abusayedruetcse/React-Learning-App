@@ -1,0 +1,28 @@
+@import '../../index.scss';
+.tour{
+    img{
+        width: 25rem;
+    }
+    h3{
+        text-transform: uppercase;
+        color: $mainGreen;
+    }
+    h4{
+        text-transform: capitalize;
+        color: $mainBlack;
+    }
+    h5{
+        text-transform: capitalize;
+        
+    }
+    span{
+        color: $mainGreen;  
+        margin: 1rem; 
+          
+    }
+    
+}
+body{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+}
