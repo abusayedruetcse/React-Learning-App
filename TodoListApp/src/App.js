@@ -57,8 +57,7 @@ class App extends Component {
             props=>(
               <React.Fragment>
                 <AddTodo addTodo={this.addTodo}/>
-                <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo}/>    
-                <About/>     
+                <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo}/>                         
               </React.Fragment>
             )
           }/>
